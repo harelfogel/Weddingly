@@ -1,5 +1,6 @@
 const request = require("request");
 const Customer = require('../models/customer');
+const {API_KEY}=require('../constants');
 
 
 exports.customersController = {
@@ -7,17 +8,17 @@ exports.customersController = {
         Customer.findById(req.params.id)
             .then((result) => {
                 // using Google Place API api to get weather information
-                const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJd7tW5r5MHRURyIkIVuda6cY&key=${API_KEY}`;
                 res.json(result);
             })
             .catch((err) => {
                 logger.error(err);
-                res.status(404).send(`Can't find customer by id.!`);
+                res.status(404).send(`Can't find customer by id!`);
             })
     },
     getCustomers(req, res) {
         Flight.find()
             .then((result) => {
+               
                 res.send(result);
             })
             .catch((err) => {

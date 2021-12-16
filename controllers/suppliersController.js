@@ -1,5 +1,8 @@
 const request = require("request");
 const Supplier = require('../models/supplier');
+const axios = require('axios');
+const {API_KEY} = require('../constants');
+
 
 
 exports.suppliersController = {
@@ -7,30 +10,46 @@ exports.suppliersController = {
         Supplier.findById(req.params.id)
             .then((result) => {
                 if(result){
+                    //GooglePlace api:
+                    const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${result.placeId}&key=${API_KEY}`;
                     res.json(result);
-                } else{
-                    res.status(404).send('Cant find supplier By id');
-                }
+                } 
             })
             .catch((err) => {
-                logger.error(err);
-                res.status(404).send(`Can't find supplier by id.!`);
+                res.status(404).send(`Can't find supplier by id!`);
             })
     },
     getSuppliers(req, res) {
-        Supplier.find()
-            .then((result) => {
-                if(result){
-
-                    res.json(result);
-                } else{
-                    res.status(404).send('Cant find supplier by id')
-                }
-            })
-            .catch((err) => {
-                logger.error(err);
+        Supplier.find({}).sort({rating:'desc'}).exec((err,docs) => {
+            if (err){
                 res.status(404).send(`Can't find supplier!`);
-            })
+            } else{
+                docs.forEach((element) => {
+                    const ratingFromApi={
+                        method:`${req.method}`,
+                        url : `https://maps.googleapis.com/maps/api/place/details/json?place_id=${element.placeId}&key=${API_KEY}`,
+                        headers:{}
+                    }
+                    axios(ratingFromApi)
+                    .then(function (response){
+                        console.log(response.data.result["rating"]);
+                    })
+                    .catch(function (error){
+                        res.json({message:"Errors with Google Api."});
+                        console.log(error);
+                    })    
+                });
+                res.json(docs);
+            }
+        });
+            // .then((result) => {
+            //     if(result){
+            //         res.json(result);
+            //     }
+            // })
+            // .catch((err) => {
+            //     res.status(404).send(`Can't find supplier!`);
+            // })
     }
     // updateFlight(req, res) {
     //     const query = req.body;
