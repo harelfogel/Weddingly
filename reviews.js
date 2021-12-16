@@ -7,7 +7,7 @@ require('dotenv').config();
 const configsArray = [
   {
     method: 'get',
-    url: `https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJJVfnwKFMHRURJXD29FLt_Pk&key=${API_KEY}`,
+    url: `https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJd7tW5r5MHRURyIkIVuda6cY&key=${API_KEY}`,
     headers: {}
   },
   {

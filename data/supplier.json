@@ -1,0 +1,290 @@
+[
+    {
+        "placeId": "61badcaf957a304755155cfd",
+        "name": "Ori Carmi",
+        "email": "oricarmi@gmail.com",
+        "type":"Photographer",
+        "price":"12000 ILS",
+        "phone":"050-738-7755",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJSzegs7ZHHRURj609UxDsDwo",
+            "city":"Rishpon",
+            "address":"Ha-Prakhim St 37"
+            }
+
+        ],
+        "rating":4.9,
+        "user_ratings_total": 77
+    },
+
+    {
+        "placeId": "ChIJJVfnwKFMHRURJXD29FLt_Pk",
+        "name": "Ofer Mathityahu",
+        "email": "oricarmi@gmail.com",
+        "type":"Photographer",
+        "price":"13000 ILS",
+        "phone":" 052-871-0700",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJH3w7GaZMHRURkD-WwKJy-8E",
+            "city":"Tel Aviv-Yafo",
+            "address":"Simtat HaShakh 5"
+            }
+
+        ],
+        "rating":0,
+        "user_ratings_total":0
+    },
+
+
+
+
+
+
+    {
+        "placeId": "ChIJs5zy24hLHRURwJZXfF8NB4Q",
+        "name": "Gilad Mashiah",
+        "email": "GilaMa@gmail.com",
+        "type":"Photographer",
+        "price":"12000 ILS",
+        "phone":"050-692-6932",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJH3w7GaZMHRURkD-WwKJy-8E",
+            "city":"Tel Aviv-Yafo",
+            "address":"Shlomo HaMelekh St 84"
+            }
+
+        ],
+        "rating":5,
+        "user_ratings_total":0
+    },
+    {
+        "placeId": "ChIJy50hZZFNHRURJJZPSgmmm-4",
+        "name": "Shalev Almog",
+        "email": "shalevalmmog@gmail.com",
+        "type":"Photographer",
+        "price":"11000 ILS",
+        "phone":"054-542-2032",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJH3w7GaZMHRURkD-WwKJy-8E",
+            "city":"Tel Aviv-Yafo",
+            "address":"Pinsker St 6332313"
+            }
+
+        ],
+        "rating":5,
+        "user_ratings_total":1
+    },
+    {
+        "placeId": "ChIJWZoYxn5MHRURv1Myd3F9Ma4",
+        "name": " Nadav Agami",
+        "email": "nadavAgami@gmail.com",
+        "type":"DJ",
+        "price":"8500 ILS",
+        "phone": "054-462-4054",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJH3w7GaZMHRURkD-WwKJy-8E",
+            "city":"Tel Aviv-Yafo",
+            "address":"9, Sirkin St 21"
+            }
+
+        ],
+        "rating":4.4,
+        "user_ratings_total":384
+    },
+    {
+        "placeId": "ChIJdRdAPYFLHRUR2c7ML3dGPgM",
+        "name": "Atisuto",
+        "email": "atisuto@gmail.com",
+        "type":"DJ",
+        "price":"13000 ILS",
+        "phone": "050-802-5454",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJH3w7GaZMHRURkD-WwKJy-8E",
+            "city":"Tel Aviv-Yafo",
+            "address":"HaNevi'im St 4"
+            }
+
+        ],
+        "rating":5,
+        "user_ratings_total":60
+    },
+    {
+        "placeId": "ChIJBX7e9u1LHRURl3_fl4F3esM",
+        "name": "Eilon Matana",
+        "email": "EilonMat@gmail.com",
+        "type":"DJ",
+        "price":"15000 ILS",
+        "phone": "No phone",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJH3w7GaZMHRURkD-WwKJy-8E",
+            "city":"Tel Aviv-Yafo",
+            "address":"Yehuda HaMakkabbi Street 11"
+            }
+
+        ],
+        "rating":5,
+        "user_ratings_total":2
+    },
+    {
+        "placeId": "ChIJF8ehHk9LHRURFEx5qMj6DE4",
+        "name": "Erez and Hanan Catring",
+        "email": "ErezandHanan@gmail.com",
+        "type":"Catring",
+        "price":"9500 ILS",
+        "phone": "052-901-1201",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJH3w7GaZMHRURkD-WwKJy-8E",
+            "city":"Tel Aviv-Yafo",
+            "address":"Ben Avigdor Street 11"
+            }
+
+        ],
+        "rating":5,
+        "user_ratings_total":3
+    },
+    {
+        "placeId": "ChIJZZIfOi83HRURj7zX6Fd3crs",
+        "name": "Rosmary Catring",
+        "email": "romarin@gmail.com",
+        "type":"Catring",
+        "price":"6500 ILS",
+        "phone": "03-910-4242",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJTbFX6ioxHRURHn9WS3zh798",
+            "city":"Rosh Haayin",
+            "address":"Ha-Avoda Street 7"
+            }
+
+        ],
+        "rating":4.4,
+        "user_ratings_total":913
+    },
+    {
+        "placeId": "ChIJZZIfOi83HRURj7zX6Fd3crs",
+        "name": "Rosmary Catring",
+        "email": "romarin@gmail.com",
+        "type":"Catring",
+        "price":"6500 ILS",
+        "phone": "03-910-4242",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJTbFX6ioxHRURHn9WS3zh798",
+            "city":"Rosh Haayin",
+            "address":"Ha-Avoda Street 7"
+            }
+
+        ],
+        "rating":4.4,
+        "user_ratings_total":913
+    },
+    {
+        "placeId": "ChIJZZIfOi83HRURj7zX6Fd3crs",
+        "name": "Rosmary Catring",
+        "email": "romarin@gmail.com",
+        "type":"Catring",
+        "price":"6500 ILS",
+        "phone": "03-910-4242",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJTbFX6ioxHRURHn9WS3zh798",
+            "city":"Rosh Haayin",
+            "address":"Ha-Avoda Street 7"
+            }
+
+        ],
+        "rating":4.4,
+        "user_ratings_total":913
+    },
+    {
+        "placeId": "ChIJV1Td2UmxAhUR-gl5VoSWi4s",
+        "name": "Achuza",
+        "email": "romarin@gmail.com",
+        "type":"Wedding Hall",
+        "price":"100000 ILS",
+        "phone": "053-532-8423",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJT0T6GLW2AhURVNd_ylylatM",
+            "city":"Beit Hanan",
+            "address":"Beit Hanan, 7686800"
+            }
+
+        ],
+        "rating":4.5,
+        "user_ratings_total":1225
+    },
+    {
+        "placeId": "ChIJYaqoLrTHAhURBIvaM0WRt1o",
+        "name": "Yarok Al Hamaim",
+        "email": "yarokalmaim@gmail.com",
+        "type":"Wedding Hall",
+        "price":"100000 ILS",
+        "phone": "053-532-8423",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJT0T6GLW2AhURVNd_ylylatM",
+            "city":"Hulda",
+            "address":"Hulda"
+            }
+
+        ],
+        "rating":4.3,
+        "user_ratings_total":923
+    },
+    {
+        "placeId": "ChIJf0I8ZhtHHRURq9Bj4iMzD8s",
+        "name": "Ronit Farm",
+        "email": "ronitfar@gmail.com",
+        "type":"Wedding Hall",
+        "price":"134000 ILS",
+        "phone": "053-710-2567",
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJr5ETMZk4HRURDfeIkMl09JA",
+            "city":"Bnei Zion",
+            "address":"Bnei Zion"
+            }
+
+        ],
+        "rating":4.3,
+        "user_ratings_total":923
+    }
+
+]

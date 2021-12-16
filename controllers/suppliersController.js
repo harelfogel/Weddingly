@@ -1,28 +1,35 @@
 const request = require("request");
-const Customer = require('../models/customer');
+const Supplier = require('../models/supplier');
 
 
-exports.customersController = {
-    getCustomerById(req, res) {
-        Customer.findById(req.params.id)
+exports.suppliersController = {
+    getSupplierById(req, res) {
+        Supplier.findById(req.params.id)
             .then((result) => {
-                // using Google Place API api to get weather information
-                const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJd7tW5r5MHRURyIkIVuda6cY&key=${API_KEY}`;
-                res.json(result);
+                if(result){
+                    res.json(result);
+                } else{
+                    res.status(404).send('Cant find supplier By id');
+                }
             })
             .catch((err) => {
                 logger.error(err);
-                res.status(404).send(`Can't find customer by id.!`);
+                res.status(404).send(`Can't find supplier by id.!`);
             })
     },
-    getCustomers(req, res) {
-        Flight.find()
+    getSuppliers(req, res) {
+        Supplier.find()
             .then((result) => {
-                res.send(result);
+                if(result){
+
+                    res.json(result);
+                } else{
+                    res.status(404).send('Cant find supplier by id')
+                }
             })
             .catch((err) => {
                 logger.error(err);
-                res.status(404).send(`Can't find Customers!`);
+                res.status(404).send(`Can't find supplier!`);
             })
     }
     // updateFlight(req, res) {

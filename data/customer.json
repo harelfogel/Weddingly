@@ -1,0 +1,89 @@
+[
+    {
+        "names": 
+        [
+            {
+                "brideName":"Amit Samet",
+                "groomName":"Yoav Berman"
+            }
+        ],
+        "email": "amits@gmail.com",
+        "intialBudget":"55000 ILS",
+        "currentBudget":"55000 ILS",
+        "phone":
+        [
+            {
+                "bridePhone":"0504466321",
+                "groomPhone":"0521345221"
+            }
+        ],
+           
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJSzegs7ZHHRURj609UxDsDwo",
+            "city":"Rehovot",
+            "address":"Ha-Kerem St 3"
+            }
+        ]
+    },
+    {
+        "names": 
+        [
+            {
+                "brideName":"Zohar Levi",
+                "groomName":"Ohad Nathan"
+            }
+        ],
+        "email": "Ohad@gmail.com",
+        "intialBudget":"85000 ILS",
+        "currentBudget":"85000 ILS",
+        "phone":
+        [
+            {
+                "bridePhone":"0502145391",
+                "groomPhone":"0547341121"
+            }
+        ],
+           
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJTbFX6ioxHRURHn9WS3zh798",
+            "city":"Tel-Aviv",
+            "address":"Remez St 6"
+            }
+        ]
+    },
+    {
+        "names": 
+        [
+            {
+                "brideName":"Chen Cohen",
+                "groomName":"Yuval Shidlov"
+            }
+        ],
+        "email": "chen8@gmail.com",
+        "intialBudget":"100000 ILS",
+        "currentBudget":"100000 ILS",
+        "phone":
+        [
+            {
+                "bridePhone":"0539945291",
+                "groomPhone":"0508932121"
+            }
+        ],
+           
+        "location": 
+        [
+            {
+            "country":"Israel",
+            "cityId":"ChIJTbFX6ioxHRURHn9WS3zh798",
+            "city":"Tel-Aviv",
+            "address":"Pinkas St 43"
+            }
+        ]
+    }
+]
