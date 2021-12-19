@@ -1,51 +1,22 @@
-const axios = require('axios');
-const consts = require('./constants' );
-const { API_KEY } = consts;
-require('dotenv').config();
+const express = require("express");
+require('dotenv').config(); 
+const { customersRouter } = require("./routers/customersRouter");
+const { suppliersRouter } = require("./routers/suppliersRouter");
 
+const app = express();
+const port = process.env.PORT || 3200;
 
-const configsArray = [
-  {
-    method: 'get',
-    url: `https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJd7tW5r5MHRURyIkIVuda6cY&key=${process.env.API_KEY}`,
-    headers: {}
-  },
-  {
-    method: 'get',
-    url: `https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJceOJKZ23AhURqeWGraI_WS8&key=${process.env.API_KEY}`,
-    headers: {}
-  },
-  {
-    method: 'get',
-    url: `https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJZZIfOi83HRURj7zX6Fd3crs&key=${process.env.API_KEY}`,
-    headers: {}
-  }
-];
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
+app.use('/weddingly/customers', customersRouter);
+app.use('/weddingly/customers/:id', customersRouter);
 
-let indexRating = async (array) => {
-  for (i in configsArray) {
-    await axios(configsArray[i])
-      .then(function (response) {
-        console.log(response.data);
-        const ratingIndex = (response.data.result["rating"]);
-        array.push(ratingIndex);
-        return array;
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-  }
-}
+app.use('/weddingly/suppliers', suppliersRouter); 
+app.use('/weddingly/suppliers/:id', suppliersRouter);
 
-let sortArr = async ()=>{
-  let arr=[];
-   await indexRating(arr);
-   console.log(arr.sort());
-}
+app.use((req, res) => {
+    res.status(400).send('Something is broken!');
+});
 
-sortArr();
-
-
-
-
+app.listen(port, () => console.log((`Express server is running on port ${port}`)));
