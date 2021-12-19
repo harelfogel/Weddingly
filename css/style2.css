@@ -1,0 +1,40 @@
+.offers-wrapper{
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-end;
+    background: #f8f9fa;
+}
+.offers-carusela{
+    box-sizing: border-box;
+    display: flex;
+    min-height: 33%;
+    width: calc(100% - 2rem);  
+      background: #adb5bd;
+    border-radius: 5px ;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.offers-carusela label{
+    font-family: "Open Sans", sans-serif;
+    font-size: xx-large;
+}
+.carusela{
+ width: 100%;
+}
+.carusela-img-wrapper{
+    display: flex !important;
+    justify-content: center;
+}
+.carusela-img{
+    height: 15vh;
+    padding: 0.5rem;
+    width: 20%;
+}
+.card{
+margin: 1rem;
+}
