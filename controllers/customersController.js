@@ -1,6 +1,6 @@
-const request = require("request");
+
 const Customer = require('../models/customer');
-const {API_KEY}=require('../constants');
+//const {API_KEY}=require('../constants');
 
 
 exports.customersController = {
