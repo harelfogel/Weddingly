@@ -165,7 +165,7 @@
   }
   
   .info .address p {
-    width: 100%;
+    width: 50%;
   }
   
   .actions {
@@ -195,7 +195,7 @@
   
   .actions button:hover {
     background: #497285;
-    cursor: pointer;
+    cursor:pointer;
   }
   
   .actions button:active {
@@ -210,5 +210,5 @@
   }
   
   .front, .back {
-    backface-visibility: hidden;
+    backface-visibility:hidden;
   }

@@ -3,491 +3,635 @@
         "supplierId": "61badcaf957a304755155cfd",
         "schedule": [
             {
-                "dateTime": "2021-12-24T10:00:00"
+                "dateTime": "2021-12-24T10:00:00",
+                "available":false
             },
             {
-                "dateTime": "2021-12-24T11:00:00"
+                "dateTime": "2021-12-24T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T12:00:00"
+                "dateTime": "2021-12-24T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-27T10:00:00"
+                "dateTime": "2021-12-27T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-26T11:00:00"
+                "dateTime": "2021-12-26T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-29T12:00:00"
+                "dateTime": "2021-12-29T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-31T10:00:00"
+                "dateTime": "2021-12-31T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-01T11:00:00"
+                "dateTime": "2022-01-01T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-02T12:00:00"
+                "dateTime": "2022-02-02T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-03T10:00:00"
+                "dateTime": "2022-01-03T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-04T11:00:00"
+                "dateTime": "2022-01-04T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-04T12:00:00"
+                "dateTime": "2022-02-04T12:00:00",
+                "available":true
             }
         ]
     },
     {
-        "supplierId": "61badcaf957a304755155cfe",
+        "supplierId": "61bfa296957a304755ef62ee",
         "schedule": [
             {
-                "dateTime": "2021-12-24T10:00:00"
+                "dateTime": "2021-12-24T10:00:00",
+                "available":false
             },
             {
-                "dateTime": "2021-12-24T11:00:00"
+                "dateTime": "2021-12-24T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T12:00:00"
+                "dateTime": "2021-12-24T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-27T10:00:00"
+                "dateTime": "2021-12-27T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-26T11:00:00"
+                "dateTime": "2021-12-26T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-29T12:00:00"
+                "dateTime": "2021-12-29T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-31T10:00:00"
+                "dateTime": "2021-12-31T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-01T11:00:00"
+                "dateTime": "2022-01-01T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-02T12:00:00"
+                "dateTime": "2022-02-02T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-03T10:00:00"
+                "dateTime": "2022-01-03T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-04T11:00:00"
+                "dateTime": "2022-01-04T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-04T12:00:00"
+                "dateTime": "2022-02-04T12:00:00",
+                "available":true
             }
         ]
     },
     {
-        "supplierId": "61badcaf957a304755155cff",
+        "supplierId": "61bfa296957a304755ef62ef",
         "schedule": [
             {
-                "dateTime": "2021-12-24T10:00:00"
+                "dateTime": "2021-12-24T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T11:00:00"
+                "dateTime": "2021-12-24T11:00:00",
+                "available":false
             },
             {
-                "dateTime": "2021-12-24T12:00:00"
+                "dateTime": "2021-12-24T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-27T10:00:00"
+                "dateTime": "2021-12-27T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-26T11:00:00"
+                "dateTime": "2021-12-26T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-29T12:00:00"
+                "dateTime": "2021-12-29T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-31T10:00:00"
+                "dateTime": "2021-12-31T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-01T11:00:00"
+                "dateTime": "2022-01-01T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-02T12:00:00"
+                "dateTime": "2022-02-02T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-03T10:00:00"
+                "dateTime": "2022-01-03T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-04T11:00:00"
+                "dateTime": "2022-01-04T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-04T12:00:00"
+                "dateTime": "2022-02-04T12:00:00",
+                "available":true
             }
         ]
     },
     {
-        "supplierId": "61badcaf957a304755155d00",
+        "supplierId": "61bfa296957a304755ef62f0",
         "schedule": [
             {
-                "dateTime": "2021-12-24T10:00:00"
+                "dateTime": "2021-12-24T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T11:00:00"
+                "dateTime": "2021-12-24T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T12:00:00"
+                "dateTime": "2021-12-24T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-27T10:00:00"
+                "dateTime": "2021-12-27T10:00:00",
+                "available":false
             },
             {
-                "dateTime": "2021-12-26T11:00:00"
+                "dateTime": "2021-12-26T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-29T12:00:00"
+                "dateTime": "2021-12-29T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-31T10:00:00"
+                "dateTime": "2021-12-31T10:00:00",
+                "available":false
             },
             {
-                "dateTime": "2022-01-01T11:00:00"
+                "dateTime": "2022-01-01T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-02T12:00:00"
+                "dateTime": "2022-02-02T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-03T10:00:00"
+                "dateTime": "2022-01-03T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-04T11:00:00"
+                "dateTime": "2022-01-04T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-04T12:00:00"
+                "dateTime": "2022-02-04T12:00:00",
+                "available":true
             }
         ]
     },
     {
-        "supplierId": "61badcaf957a304755155d01",
+        "supplierId": "61bfa296957a304755ef62f1",
         "schedule": [
             {
-                "dateTime": "2021-12-24T10:00:00"
+                "dateTime": "2021-12-24T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T11:00:00"
+                "dateTime": "2021-12-24T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T12:00:00"
+                "dateTime": "2021-12-24T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-27T10:00:00"
+                "dateTime": "2021-12-27T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-26T11:00:00"
+                "dateTime": "2021-12-26T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-29T12:00:00"
+                "dateTime": "2021-12-29T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-31T10:00:00"
+                "dateTime": "2021-12-31T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-01T11:00:00"
+                "dateTime": "2022-01-01T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-02T12:00:00"
+                "dateTime": "2022-02-02T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-03T10:00:00"
+                "dateTime": "2022-01-03T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-04T11:00:00"
+                "dateTime": "2022-01-04T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-04T12:00:00"
+                "dateTime": "2022-02-04T12:00:00",
+                "available":true
             }
         ]
     },
     {
-        "supplierId": "61badcaf957a304755155d02",
+        "supplierId": "61bfa296957a304755ef62f2",
         "schedule": [
             {
-                "dateTime": "2021-12-24T10:00:00"
+                "dateTime": "2021-12-24T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T11:00:00"
+                "dateTime": "2021-12-24T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T12:00:00"
+                "dateTime": "2021-12-24T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-27T10:00:00"
+                "dateTime": "2021-12-27T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-26T11:00:00"
+                "dateTime": "2021-12-26T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-29T12:00:00"
+                "dateTime": "2021-12-29T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-31T10:00:00"
+                "dateTime": "2021-12-31T10:00:00",
+                "available":false
             },
             {
-                "dateTime": "2022-01-01T11:00:00"
+                "dateTime": "2022-01-01T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-02T12:00:00"
+                "dateTime": "2022-02-02T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-03T10:00:00"
+                "dateTime": "2022-01-03T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-04T11:00:00"
+                "dateTime": "2022-01-04T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-04T12:00:00"
+                "dateTime": "2022-02-04T12:00:00",
+                "available":true
             }
         ]
     },
     {
-        "supplierId": "61badcaf957a304755155d03",
+        "supplierId": "61bfa296957a304755ef62f3",
         "schedule": [
             {
-                "dateTime": "2021-12-24T10:00:00"
+                "dateTime": "2021-12-24T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T11:00:00"
+                "dateTime": "2021-12-24T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T12:00:00"
+                "dateTime": "2021-12-24T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-27T10:00:00"
+                "dateTime": "2021-12-27T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-26T11:00:00"
+                "dateTime": "2021-12-26T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-29T12:00:00"
+                "dateTime": "2021-12-29T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-31T10:00:00"
+                "dateTime": "2021-12-31T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-01T11:00:00"
+                "dateTime": "2022-01-01T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-02T12:00:00"
+                "dateTime": "2022-02-02T12:00:00",
+                "available":false
             },
             {
-                "dateTime": "2022-01-03T10:00:00"
+                "dateTime": "2022-01-03T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-04T11:00:00"
+                "dateTime": "2022-01-04T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-04T12:00:00"
+                "dateTime": "2022-02-04T12:00:00",
+                "available":true
             }
         ]
     },
     {
-        "supplierId": "61badcaf957a304755155d04",
+        "supplierId": "61bfa296957a304755ef62f4",
         "schedule": [
             {
-                "dateTime": "2021-12-24T10:00:00"
+                "dateTime": "2021-12-24T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T11:00:00"
+                "dateTime": "2021-12-24T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T12:00:00"
+                "dateTime": "2021-12-24T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-27T10:00:00"
+                "dateTime": "2021-12-27T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-26T11:00:00"
+                "dateTime": "2021-12-26T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-29T12:00:00"
+                "dateTime": "2021-12-29T12:00:00",
+                "available":false
             },
             {
-                "dateTime": "2021-12-31T10:00:00"
+                "dateTime": "2021-12-31T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-01T11:00:00"
+                "dateTime": "2022-01-01T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-02T12:00:00"
+                "dateTime": "2022-02-02T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-03T10:00:00"
+                "dateTime": "2022-01-03T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-04T11:00:00"
+                "dateTime": "2022-01-04T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-04T12:00:00"
+                "dateTime": "2022-02-04T12:00:00",
+                "available":true
             }
         ]
     },
     {
-        "supplierId": "61badcaf957a304755155d05",
+        "supplierId": "61bfa296957a304755ef62f5",
         "schedule": [
-            {
-                "dateTime": "2021-12-24T10:00:00"
+             {
+                "dateTime": "2021-12-24T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T11:00:00"
+                "dateTime": "2021-12-24T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T12:00:00"
+                "dateTime": "2021-12-24T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-27T10:00:00"
+                "dateTime": "2021-12-27T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-26T11:00:00"
+                "dateTime": "2021-12-26T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-29T12:00:00"
+                "dateTime": "2021-12-29T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-31T10:00:00"
+                "dateTime": "2021-12-31T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-01T11:00:00"
+                "dateTime": "2022-01-01T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-02T12:00:00"
+                "dateTime": "2022-02-02T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-03T10:00:00"
+                "dateTime": "2022-01-03T10:00:00",
+                "available":false
             },
             {
-                "dateTime": "2022-01-04T11:00:00"
+                "dateTime": "2022-01-04T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-04T12:00:00"
+                "dateTime": "2022-02-04T12:00:00",
+                "available":false
             }
         ]
     },
     {
-        "supplierId": "61badcaf957a304755155d08",
+        "supplierId": "61bfa296957a304755ef62f6",
         "schedule": [
-            {
-                "dateTime": "2021-12-24T10:00:00"
+             {
+                "dateTime": "2021-12-24T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T11:00:00"
+                "dateTime": "2021-12-24T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T12:00:00"
+                "dateTime": "2021-12-24T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-27T10:00:00"
+                "dateTime": "2021-12-27T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-26T11:00:00"
+                "dateTime": "2021-12-26T11:00:00",
+                "available":false
             },
             {
-                "dateTime": "2021-12-29T12:00:00"
+                "dateTime": "2021-12-29T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-31T10:00:00"
+                "dateTime": "2021-12-31T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-01T11:00:00"
+                "dateTime": "2022-01-01T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-02T12:00:00"
+                "dateTime": "2022-02-02T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-03T10:00:00"
+                "dateTime": "2022-01-03T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-04T11:00:00"
+                "dateTime": "2022-01-04T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-04T12:00:00"
+                "dateTime": "2022-02-04T12:00:00",
+                "available":true
             }
         ]
     },
     {
-        "supplierId": "61badcaf957a304755155d09",
+        "supplierId": "61bfa296957a304755ef62f7",
         "schedule": [
-            {
-                "dateTime": "2021-12-24T10:00:00"
+             {
+                "dateTime": "2021-12-24T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T11:00:00"
+                "dateTime": "2021-12-24T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T12:00:00"
+                "dateTime": "2021-12-24T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-27T10:00:00"
+                "dateTime": "2021-12-27T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-26T11:00:00"
+                "dateTime": "2021-12-26T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-29T12:00:00"
+                "dateTime": "2021-12-29T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-31T10:00:00"
+                "dateTime": "2021-12-31T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-01T11:00:00"
+                "dateTime": "2022-01-01T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-02T12:00:00"
+                "dateTime": "2022-02-02T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-03T10:00:00"
+                "dateTime": "2022-01-03T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-04T11:00:00"
+                "dateTime": "2022-01-04T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-04T12:00:00"
+                "dateTime": "2022-02-04T12:00:00",
+                "available":true
             }
         ]
     },
     {
         "supplierId": "61badcaf957a304755155d0a",
         "schedule": [
-            {
-                "dateTime": "2021-12-24T10:00:00"
+             {
+                "dateTime": "2021-12-24T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T11:00:00"
+                "dateTime": "2021-12-24T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-24T12:00:00"
+                "dateTime": "2021-12-24T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-27T10:00:00"
+                "dateTime": "2021-12-27T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-26T11:00:00"
+                "dateTime": "2021-12-26T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-29T12:00:00"
+                "dateTime": "2021-12-29T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2021-12-31T10:00:00"
+                "dateTime": "2021-12-31T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-01T11:00:00"
+                "dateTime": "2022-01-01T11:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-02-02T12:00:00"
+                "dateTime": "2022-02-02T12:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-03T10:00:00"
+                "dateTime": "2022-01-03T10:00:00",
+                "available":true
             },
             {
-                "dateTime": "2022-01-04T11:00:00"
+                "dateTime": "2022-01-04T11:00:00",
+                "available":false
             },
             {
-                "dateTime": "2022-02-04T12:00:00"
+                "dateTime": "2022-02-04T12:00:00",
+                "available":true
             }
         ]
     }

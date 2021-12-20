@@ -1,59 +1,71 @@
 [
     {
-        "names": 
-        [
-            {
-                "brideName":"Amit Samet",
-                "groomName":"Yoav Berman"
-            }
-        ],
+       
+        "brideName":"Amit Samet",
+        "groomName":"Yoav Berman",
         "email": "amits@gmail.com",
-        "intialBudget":"55000 ILS",
-        "currentBudget":"55000 ILS",
-        "phone":
+        "budget":"55000 ILS",
+        "bridePhone":"0504466321",
+        "groomPhone":"0521345221",
+        "appointment":
         [
             {
-                "bridePhone":"0504466321",
-                "groomPhone":"0521345221"
-            }
-        ],
-           
-        "location": 
-        [
+                "supplierId":"61badcaf957a304755155cfd",
+                "supplierName":"Ori Carmi",
+                "dateTime": "2021-12-24T10:00:00"
+            },
             {
-            "country":"Israel",
-            "cityId":"ChIJSzegs7ZHHRURj609UxDsDwo",
-            "city":"Rehovot",
-            "address":"Ha-Kerem St 3"
+               
+                "supplierId":"61bfa296957a304755ef62f0",
+                "supplierName":" Nadav Agami",
+                "dateTime": "2021-12-27T10:00:00"
+            },
+            {
+               
+                "supplierId":"61bfa296957a304755ef62f4",
+                "supplierName":"Rosmary Catring",
+                "dateTime": "2021-12-29T12:00:00"
+            },
+            {
+               
+                "supplierId":"61bfa296957a304755ef62f6",
+                "supplierName":"Yarok Al Hamaim",
+                "dateTime": "2022-02-04T12:00:00"
             }
         ]
     },
     {
-        "names": 
-        [
-            {
-                "brideName":"Zohar Levi",
-                "groomName":"Ohad Nathan"
-            }
-        ],
+       
+        "brideName":"Zohar Levi",
+        "groomName":"Ohad Nathan",
         "email": "Ohad@gmail.com",
-        "intialBudget":"85000 ILS",
-        "currentBudget":"85000 ILS",
-        "phone":
+        "budget":"85000 ILS",
+        "bridePhone":"0502145391",
+        "groomPhone":"0547341121",
+        "appointment":
         [
             {
-                "bridePhone":"0502145391",
-                "groomPhone":"0547341121"
-            }
-        ],
-           
-        "location": 
-        [
+                "supplierId":"61bfa296957a304755ef62f3",
+                "supplierName":"Erez and Hanan Catring",
+                "dateTime": "2021-12-24T10:00:00"
+            },
             {
-            "country":"Israel",
-            "cityId":"ChIJTbFX6ioxHRURHn9WS3zh798",
-            "city":"Tel-Aviv",
-            "address":"Remez St 6"
+               
+                    "supplierId":"61badcaf957a304755155d02",
+                    "supplierName":"Ori Carmi",
+                    "dateTime": "2021-12-31T10:00:00"
+            },
+            {
+               
+                "supplierId":"61bfa296957a304755ef62f1",
+                "supplierName":"Atisuto",
+                "dateTime": "2022-02-02T12:00:00"
+            },
+            {
+               
+                "supplierId":"61bfa296957a304755ef62ef",
+                "supplierName":"Shalev Almog",
+                "dateTime": "2021-12-26T11:00:00"
             }
         ]
     },
@@ -66,8 +78,7 @@
             }
         ],
         "email": "chen8@gmail.com",
-        "intialBudget":"100000 ILS",
-        "currentBudget":"100000 ILS",
+        "budget":"100000 ILS",
         "phone":
         [
             {
@@ -75,14 +86,30 @@
                 "groomPhone":"0508932121"
             }
         ],
-           
-        "location": 
+        "appointment":
         [
             {
-            "country":"Israel",
-            "cityId":"ChIJTbFX6ioxHRURHn9WS3zh798",
-            "city":"Tel-Aviv",
-            "address":"Pinkas St 43"
+                "supplierId":"61bfa296957a304755ef62ee",
+                "supplierName":" Gilad Mashiah",
+                "dateTime": "2021-12-24T11:00:00"
+            },
+            {
+               
+                "supplierId":"61bfa296957a304755ef62f2",
+                "supplierName":"Eilon Matana",
+                "dateTime": "2021-12-31T10:00:00"
+            },
+            {
+               
+                "supplierId":"61bfa296957a304755ef62f7",
+                "supplierName":"Ronit Farm",
+                "dateTime": "2022-01-03T10:00:00"
+            },
+            {
+               
+                "supplierId":"61bfa296957a304755ef62ef",
+                "supplierName":" Shalev Almog",
+                "dateTime": "2022-01-04T11:00:00"
             }
         ]
     }
