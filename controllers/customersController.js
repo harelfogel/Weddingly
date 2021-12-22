@@ -1,6 +1,7 @@
 
 const Customer = require('../models/customer');
 exports.customersController = {
+  
     getCustomerById(req, res) {
         Customer.findById(req.params.id)
             .then((result) => {
