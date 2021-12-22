@@ -5,7 +5,3 @@ module.exports = { customersRouter };
 
 customersRouter.get('/', customersController.getCustomers); 
 customersRouter.get('/:id', customersController.getCustomerById);
-// suppliersRouter.post('/',authController.checkKeyToken, flightsController.addFlight);
-// suppliersRouter.put('/:id',authController.checkKeyToken, flightsController.updateFlight);
-// suppliersRouter.delete('/:id',authController.checkKeyToken, flightsController.deleteFlight);
-  

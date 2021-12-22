@@ -19,7 +19,7 @@ const phoneSchema = new Schema ({
 
 
 const customerSchema = new Schema ({
-    _id:{type: Schema.Types.ObjectId,auto:true},   // gives a unique id
+    _id:{type: Schema.Types.ObjectId,auto:true},  
     placeId:{type:String},
     name:[nameSchema],
     email:{type:String},
@@ -27,7 +27,8 @@ const customerSchema = new Schema ({
     currentBudget: {type: String},
     phone:[phoneSchema],
     location:[locationSchema],
-},{collection:'customers',strict:false}); // can be done versionKey: false but its not recommended therfore i didnt use it
+},{collection:'customers',strict:false}); 
+
 
 
 const Customer = model('Customer', customerSchema);
