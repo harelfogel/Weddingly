@@ -7,39 +7,51 @@ exports.suppliersController = {
         Supplier.findById(req.params.id)
             .then((result) => {
                 if (result) {
-                    //GooglePlace api:
-                    const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${result.placeId}&key=${API_KEY}`;
                     res.json(result);
                 }
             })
             .catch((err) => {
-                res.status(404).send(`Can't find supplier by id!`);
+                res.status(404).json({ message: `Can't find supplier by id!` });
             })
     },
     getSuppliers(req, res) {
         Supplier.find({}).sort({ rating: 'desc' }).exec((err, docs) => {
             if (err) {
-                res.status(404).send(`Can't find supplier!`);
+                res.status(404).json({ message: "Can't find supplier!" });
             } else {
-                docs.forEach(element => {  // get the suppliers rating data from the GooglePlace API and update in mongo db
-                    const ratingFromApi = {
-                        method: `${req.method}`,
-                        url: `https://maps.googleapis.com/maps/api/place/details/json?place_id=${element.placeId}&key=${API_KEY}`,
-                        headers: {}
-                    }
-                    axios(ratingFromApi)
-                        .then(function (response) {
-                            Supplier.updateOne(
-                                { _id: element._id }, { $addToSet: { rating: `${response.data.result["rating"]}` } });
-                        })
-                })
                 res.json(docs);
             }
         });
+    },
+    getSupplierRating(req, res) {
+        const ratingFromApi = {
+            method: `GET`,
+            url: `https://maps.googleapis.com/maps/api/place/details/json?place_id=${req.id}&key=${API_KEY}`,
+            headers: {}
+        }
+        axios(ratingFromApi)
+            .then(function (response, err) {
+                if (response) {
+                    res.json(response);
+                }
+                else {
+                    res.json({ message: `Cant find rating of the supplier of ${placeId}` });
+                }
+            })
     }
+    // updateSupplierMeeting(req, res) {
+    //     const supplierId = req.params.id;
+    //     const meetingId = req.params.m_id;
+    //     Supplier.findOneAndUpdate({_id:supplierId},{$pull:{meeting:meetingId}} , function(err, foundDate){
+    //         if(!err){
+    //             res.json({message:`meeting ${meetingId} has been deleted!`});
+    //         } else{
+    //             res.json({message:`Can't delete meeting`});
+    //         }
+    //     })
+       
+    // }
 };
-
-
 
 
 

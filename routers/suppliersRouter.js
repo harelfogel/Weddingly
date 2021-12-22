@@ -5,7 +5,5 @@ module.exports = { suppliersRouter };
 
 suppliersRouter.get('/', suppliersController.getSuppliers); 
 suppliersRouter.get('/:id', suppliersController.getSupplierById);
-// suppliersRouter.post('/',authController.checkKeyToken, flightsController.addFlight);
-// suppliersRouter.put('/:id',authController.checkKeyToken, flightsController.updateFlight);
-// suppliersRouter.delete('/:id',authController.checkKeyToken, flightsController.deleteFlight);
+//suppliersRouter.put('/:id/:m_id', suppliersController.updateSupplierMeeting);
   

@@ -1,45 +1,38 @@
 
 const Customer = require('../models/customer');
-//const {API_KEY}=require('../constants');
-
-
 exports.customersController = {
     getCustomerById(req, res) {
         Customer.findById(req.params.id)
             .then((result) => {
-                // using Google Place API api to get weather information
-                res.json(result);
+                if (result) {
+                    res.json(result);
+                }
             })
             .catch((err) => {
-                logger.error(err);
-                res.status(404).send(`Can't find customer by id!`);
+                res.status(404).json({ message: `Can't find customer by id!` });
             })
     },
     getCustomers(req, res) {
-        Flight.find()
+        Customer.find()
             .then((result) => {
-               
-                res.send(result);
+                res.json(result);
             })
             .catch((err) => {
-                logger.error(err);
                 res.status(404).send(`Can't find Customers!`);
             })
-    }
-    // updateFlight(req, res) {
+    },
+    // addNewMeeting(req, res) {
     //     const query = req.body;
-    //     const flightId = req.params.id;
-    //     fileLogger.write((req.method + ' request has launched Succesfully for flights in:' + (moment().format('MMMM Do YYYY, h:mm:ss a')) + os.EOL));
-    //     Flight.findByIdAndUpdate(flightId, query, { returnOriginal: false })
-    //         .then((updatedFlight) => {
-    //             res.send(updatedFlight);
+    //     const customerId = req.body._id;
+    //     console.log(customerId);
+    //     Customer.findByIdAndUpdate(customerId, query, { returnOriginal: false })
+    //         .then((updatedMeeting) => {
+    //             res.send(updatedMeeting);
     //         })
     //         .catch(err => {
-    //             logger.error(err);
-    //             fileLogger.write((req.method + ' request Error for flights in:' + (moment().format('MMMM Do YYYY, h:mm:ss a')) + os.EOL));
-    //             res.status(404).send(`Can't update flight!`);
+    //             res.status(404).json(`Can't update meeting!`);
     //         })
-    // },
+    // }
     // deleteFlight(req, res) {
     //     const query = req.body;
     //     const flightId = req.params.id;
@@ -51,17 +44,15 @@ exports.customersController = {
     //             res.json({ message: `Can't delete flight!` })
     //         })
     // },
-    // addFlight(req, res) {
-    //     Flight.create(req.body)
-    //         .then((newFlight) => {
-    //             res.send(newFlight);
-    //             fileLogger.write((req.method + ' request has launched Succesfully for flights in:' + (moment().format('MMMM Do YYYY, h:mm:ss a')) + os.EOL));
-    //         })
-    //         .catch((err) => {
-    //             logger.error(err);
-    //             res.status(404).send(`Can't add flight!`);
-    //         })
-    // }
+    addCustomer(req, res) {
+        Customer.create(req.body)
+            .then((newCustomer) => {
+                res.json(newCustomer);
+            })
+            .catch((err) => {
+                res.status(404).send(`Can't add customer!`);
+            })
+    }
 };
 
 

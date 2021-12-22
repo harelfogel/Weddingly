@@ -2,6 +2,7 @@ const {Schema,model}= require('mongoose');
 
 const scheduleSchema = new Schema ({
     dateTime:{type:Date},
+    available:{type:Boolean}
 });
 
 const meetingSchema = new Schema ({

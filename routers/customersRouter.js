@@ -1,11 +1,12 @@
 const { Router } = require('express');
 const { customersController } = require('../controllers/customersController');
+const { suppliersController } = require('../controllers/suppliersController');
 const customersRouter = new Router();
-module.exports = { customersRouter };
+const supplierssRouter = new Router();
+module.exports = { customersRouter,suppliersController };
 
-customersRouter.get('/', customersController.getCustomers); 
+customersRouter.get('/' ,customersController.getCustomers); 
+customersRouter.post('/' ,customersController.addCustomer); 
 customersRouter.get('/:id', customersController.getCustomerById);
-// suppliersRouter.post('/',authController.checkKeyToken, flightsController.addFlight);
-// suppliersRouter.put('/:id',authController.checkKeyToken, flightsController.updateFlight);
-// suppliersRouter.delete('/:id',authController.checkKeyToken, flightsController.deleteFlight);
+
   
