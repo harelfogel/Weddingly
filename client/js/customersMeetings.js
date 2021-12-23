@@ -1,7 +1,7 @@
 const  params = (new URL(document.location)).searchParams;
 const supplierId = params.get("sid");
 const customerId=params.get("cid");
-const domainUrl = 'http://localhost:3200';
+const domainUrl = `https://weddingly.herokuapp.com`;
 
 const getCustomerMeetings = () => {
   fetch(`${domainUrl}/weddingly/customers/${customerId}`)

@@ -1,4 +1,4 @@
-const domainUrl = 'http://localhost:3200';
+const domainUrl = `https://weddingly.herokuapp.com`;
 const params = (new URL(document.location)).searchParams;
 const customerId = params.get("cid");
 

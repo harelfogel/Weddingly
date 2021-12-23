@@ -3,7 +3,7 @@
 const params = (new URL(document.location)).searchParams;
 const customerId = params.get("cid");
 const supplierId = params.get("sid");
-const domainUrl = 'http://localhost:3200';
+const domainUrl = `https://weddingly.herokuapp.com`;
 const datesArray = [];
 
 const getMeetings = () => {
