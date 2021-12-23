@@ -1,4 +1,6 @@
 const domainUrl = 'http://localhost:3200';
+const params = (new URL(document.location)).searchParams;
+const customerId = params.get("cid");
 
 const stars = [
   `<span class="fa fa-star checked"></span>` +
@@ -27,7 +29,7 @@ function getCard(photo, name, id, starObj, index) {
     `<div class="card-body">` +
     `<h5 class="card-title">${name}</h5>` +
     `${starObj[index]}` +
-    `<a href="setAppoitment.html?sid=${id}" class="btn btn-primary">Get a meeting</a>` +
+    `<a href="setAppoitment.html?cid=${customerId}&sid=${id}" class="btn btn-primary">Get a meeting</a>` +
     `</div>` +
     `</div>`;
   return card
@@ -61,7 +63,6 @@ const getSuppliers = () => {
       });
       function writeSupplierCardToHtml(obj, htmlIdString) {
         obj.forEach((element) => {
-          console.log(element.placeId);
           $.get(`${domainUrl}/weddingly/ratings/${element.placeId}`, function (response) {
             let elementRating = response["rating"];
             const ratingGrade =

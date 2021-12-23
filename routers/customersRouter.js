@@ -6,7 +6,9 @@ const supplierssRouter = new Router();
 module.exports = { customersRouter,suppliersController };
 
 customersRouter.get('/' ,customersController.getCustomers); 
-customersRouter.post('/' ,customersController.addCustomer); 
 customersRouter.get('/:id', customersController.getCustomerById);
+customersRouter.post('/meeting' ,customersController.createMeeting);
+customersRouter.post('/add' ,customersController.addCustomer); 
+
 
   

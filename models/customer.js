@@ -3,7 +3,8 @@ const {Schema,model}= require('mongoose');
 const appoitmentSchema = new Schema ({
     supplierId:{type:String},
     supplierName:{type:String},
-    dateTime:{type:Date}
+    date:{type:String},
+    hour:{type:String}
 });
 
 
@@ -13,8 +14,6 @@ const customerSchema = new Schema ({
     groomName:{type:String},
     email:{type:String},
     budget:{type:String},   
-    bridePhone:{type:String},
-    groomPhone:{type:String},
     appointment:[appoitmentSchema]
 },{collection:'customers',strict:false}); // can be done versionKey: false but its not recommended therfore i didnt use it
 
