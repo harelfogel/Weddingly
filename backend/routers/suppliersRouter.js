@@ -5,5 +5,5 @@ module.exports = { suppliersRouter };
 
 suppliersRouter.get('/', suppliersController.getSuppliers); 
 suppliersRouter.get('/:id', suppliersController.getSupplierById);
-//suppliersRouter.put('/:id/:m_id', suppliersController.updateSupplierMeeting);
+
   

@@ -39,18 +39,6 @@ exports.suppliersController = {
                 }
             })
     }
-    // updateSupplierMeeting(req, res) {
-    //     const supplierId = req.params.id;
-    //     const meetingId = req.params.m_id;
-    //     Supplier.findOneAndUpdate({_id:supplierId},{$pull:{meeting:meetingId}} , function(err, foundDate){
-    //         if(!err){
-    //             res.json({message:`meeting ${meetingId} has been deleted!`});
-    //         } else{
-    //             res.json({message:`Can't delete meeting`});
-    //         }
-    //     })
-       
-    // }
 };
 
 
