@@ -1,3 +1,4 @@
+const domainUrl=`https://weddingly.herokuapp.com`;
 window.onload = () => {
     console.log("did load create profile");
     $('#create-costumer').click(async (event) => {
@@ -10,7 +11,7 @@ window.onload = () => {
             email: $('#email').val(),
             date: $('#date').val(),
         }
-        fetch("http://localhost:3200/weddingly/customers/add", {
+        fetch(`${domainUrl}/weddingly/customers/add`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
